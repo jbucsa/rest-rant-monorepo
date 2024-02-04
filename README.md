@@ -14,10 +14,12 @@ DB_DATABASE=rest_rant
 
 Next `cd` into `backend` and run `npm install` to install dependencies for the API.
 
-Next, `cd` into `frontend`, and run `npm install` to install dependencies for the React app.
+Next, `cd` into `frontend`, and run `npm install` to install dependencies for the React app.   
 
-Finally, in separate terminals, run `npm start` in each folder so that the API and React app are running at the same time.
-
+Finally, in separate terminals, run `npm start` in each folder so that the API and React app are running at the same time.  
+   
+Note for troubleshooting. Users may need to run `npm audit fix --force` on either the frontend or backend terminals if running `npm start` fails.
+   
 ### API (http://localhost:5000)
 | Method | Path                                 | Purpose                                   |
 | ------ | ------------------------------------ | ----------------------------------------- |
